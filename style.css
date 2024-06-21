@@ -1,0 +1,70 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00ffff ;
+    color: #000; 
+    padding: 5px 5px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.task-form {
+    
+    display: flex;
+    gap: 15px;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.task-form input,
+.task-form select,
+.task-form button {
+    background-color: rgb(243, 240, 235);
+    padding: 12.5px;
+    font-size: 1em;
+}
+
+.task-list {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+ 
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+ 
+.task button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px; 
+}
+
+.task-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0; 
+}
+
+.done {
+    background-color: #e0e0e0;
+    text-decoration: line-through;
+}
